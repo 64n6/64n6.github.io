@@ -7,7 +7,7 @@
 
 .highlight .w { color: #d0d0d0; }
 
-.highlight .err { color: #151515; background-color: #ac4142; }
+.highlight .err { color: #222831; background-color: #ac4142; }
 
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs { color: #888; }
 
@@ -17,7 +17,7 @@
 
 .highlight .p, .highlight .pi { color: #d0d0d0; }
 
-.highlight .gi { color: #90a959; }
+.highlight .gi { color: #F05454; }
 
 .highlight .gd { color: #ac4142; }
 
@@ -27,7 +27,7 @@
 
 .highlight .kc, .highlight .kt, .highlight .kd { color: #d28445; }
 
-.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 { color: #90a959; }
+.highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 { color: #F05454; }
 
 .highlight .sr { color: #75b5aa; }
 
@@ -37,11 +37,11 @@
 
 .highlight .na { color: #6a9fb5; }
 
-.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx { color: #90a959; }
+.highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx { color: #F05454; }
 
-.highlight .ss { color: #90a959; }
+.highlight .ss { color: #F05454; }
 
-body { margin: 0; padding: 0; background: #151515 url("../images/bkg.png") 0 0; color: #eaeaea; font-size: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
+body { margin: 0; padding: 0; background: #222831 url("../images/bkg.png") 0 0; color: #DDDDDD; font-size: 16px; line-height: 1.5; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; }
 
 /* General & 'Reset' Stuff */
 .container { width: 90%; max-width: 1000px; margin: 0 auto; }
@@ -53,9 +53,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0 0 20px; }
 li { line-height: 1.4; }
 
 /* Header, <header> header   - container h1       - project name h2       - project description */
-header { background: rgba(0, 0, 0, 0.1); width: 100%; border-bottom: 1px dashed #b5e853; padding: 20px 0; margin: 0 0 40px 0; }
+header { background: rgba(0, 0, 0, 0.1); width: 100%; border-bottom: 1px dashed #F05454; padding: 20px 0; margin: 0 0 40px 0; }
 
-header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px; -webkit-font-smoothing: antialiased; }
+header h1 { font-size: 30px; line-height: 1.5; margin: 0 0 0 -40px; font-weight: bold; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #F05454; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); letter-spacing: -1px; -webkit-font-smoothing: antialiased; }
 
 @media (max-width: 1000px) { header h1 { margin-left: 0; } }
 
@@ -71,7 +71,7 @@ header h2 { font-size: 18px; font-weight: 300; color: #666; }
 
 section img { max-width: 100%; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #b5e853; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace; color: #F05454; letter-spacing: -0.03em; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1); }
 
 #main_content h1 { font-size: 30px; }
 
@@ -91,17 +91,17 @@ ul li { list-style-image: url("../images/bullet.png"); }
 
 blockquote { color: #aaa; padding-left: 10px; border-left: 1px dotted #666; }
 
-pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 16px; color: #b5e853; border-radius: 2px; word-wrap: normal; overflow: auto; overflow-y: hidden; }
+pre { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 10px; font-size: 16px; color: #F05454; border-radius: 2px; word-wrap: normal; overflow: auto; overflow-y: hidden; }
 
 code.highlighter-rouge { background: rgba(0, 0, 0, 0.9); border: 1px solid rgba(255, 255, 255, 0.15); padding: 0px 3px; margin: 0px -3px; color: #aa759f; border-radius: 2px; }
 
 table { width: 100%; margin: 0 0 20px 0; }
 
-th { text-align: left; border-bottom: 1px dashed #b5e853; padding: 5px 10px; }
+th { text-align: left; border-bottom: 1px dashed #F05454; padding: 5px 10px; }
 
 td { padding: 5px 10px; }
 
-hr { height: 0; border: 0; border-bottom: 1px dashed #b5e853; color: #b5e853; }
+hr { height: 0; border: 0; border-bottom: 1px dashed #F05454; color: #F05454; }
 
 /* Buttons
 */
@@ -114,7 +114,7 @@ hr { height: 0; border: 0; border-bottom: 1px dashed #b5e853; color: #b5e853; }
 .btn-github .icon { opacity: 0.6; background: url("../images/blacktocat.png") 0 0 no-repeat; }
 
 /* Links a, a:hover, a:visited */
-a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
+a { color: #F05454; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 /* Clearfix */
 .cf:before, .cf:after { content: ""; display: table; }
@@ -125,7 +125,13 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 #a-title { text-decoration: none; }
 
-.header { padding: 60px; text-align: center; background: #189ad3; color: white; font-size: 30px; }
+.header-img { width: 100%; height: 300px; background: url("/assets/images/header.jpg"); background-size: cover; }
+
+.header { padding: 5px; text-align: left; background: #30475E; color: #DDDDDD; font-size: 24px; }
+
+.header img { float: left; width: 100px; height: 100px; background: #30475E; }
+
+.header h1 { position: relative; top: 18px; left: 10px; }
 
 footer { display: table; text-align: center; margin-left: auto; margin-right: auto; }
 
@@ -133,12 +139,14 @@ footer { display: table; text-align: center; margin-left: auto; margin-right: au
 .topnav { background-color: #333; overflow: hidden; }
 
 /* Style the links inside the navigation bar */
-.topnav a { float: left; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
+.topnav a { float: left; color: #DDDDDD; text-align: center; padding: 14px 16px; text-decoration: none; font-size: 17px; }
 
 /* Change the color of links on hover */
-.topnav a:hover { background-color: #ddd; color: black; }
+.topnav a:hover { background-color: #DDDDDD; color: black; }
 
 /* Add a color to the active/current link */
-.topnav a.active { background-color: #189ad3; color: white; }
+.topnav a.active { background-color: #F05454; color: #DDDDDD; }
+
+.topnav p { margin-bottom: auto; }
 
 /*# sourceMappingURL=style.css.map */
