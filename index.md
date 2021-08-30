@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-[Home](./index.html) [Forensics Services](./services.html) [Data Recovery](./data.html) [Contact Us](./contact.html) [Blog](./blog.html) [About](./about.html)
 
 Lorem ipsum dolor sit amet eiusmod ipsum dolor quis laborum dolor nulla sit dolore irure voluptate in. Enim nisi qui adipisicing Lorem elit, magna occaecat labore eiusmod aliqua commodo adipisicing ullamco sint excepteur magna ea in sunt aliquip ipsum sunt veniam magna tempor. Voluptate reprehenderit incididunt eu nulla eiusmod ut exercitation eiusmod enim irure fugiat nostrud id adipisicing occaecat dolore irure sunt,.
 
