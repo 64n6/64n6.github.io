@@ -114,7 +114,7 @@ hr { height: 0; border: 0; border-bottom: 1px dashed #F05454; color: #F05454; }
 .btn-github .icon { opacity: 0.6; background: url("../images/blacktocat.png") 0 0 no-repeat; }
 
 /* Links a, a:hover, a:visited */
-a { color: #F05454; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
+a { color: #F05454; }
 
 /* Clearfix */
 .cf:before, .cf:after { content: ""; display: table; }
@@ -133,7 +133,7 @@ a { color: #F05454; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 .header h1 { position: relative; top: 15px; left: 5px; }
 
-footer { display: table; text-align: center; margin-left: auto; margin-right: auto; }
+footer { position: fixed; left: 0; bottom: 0; width: 100%; background-color: #30475E; color: #DDDDDD; text-align: center; }
 
 /* Add a black background color to the top navigation */
 .topnav { background-color: #333; overflow: hidden; }
