@@ -1,9 +1,17 @@
 ---
 layout: default
 ---
+### DFIR / Data Recovery
 
-Lorem ipsum dolor sit amet eiusmod ipsum dolor quis laborum dolor nulla sit dolore irure voluptate in. Enim nisi qui adipisicing Lorem elit, magna occaecat labore eiusmod aliqua commodo adipisicing ullamco sint excepteur magna ea in sunt aliquip ipsum sunt veniam magna tempor. Voluptate reprehenderit incididunt eu nulla eiusmod ut exercitation eiusmod enim irure fugiat nostrud id adipisicing occaecat dolore irure sunt,.
+Lost old photos or videos? Hard drive failure or unrecognizable drive? We can recover important files from any type of
+drive or computer, SDCards and flash drives. Hard drive images and clones.
 
-Aute minim elit reprehenderit in duis cillum nulla minim consequat dolore qui aliquip. Et duis proident minim non laboris aliqua exercitation commodo eiusmod proident excepteur dolore ea fugiat nisi nostrud id nulla. Consectetur laborum dolor aute sit dolor esse minim cupidatat nulla ullamco aute exercitation Lorem consectetur tempor nulla.
+Complete DFIR Certification, we can recover your data and also provied full computer forensics services. We can investigate any digital device and provide full comprehensive reports.
 
-Ut aute do nulla veniam anim qui aliqua in incididunt ad ipsum. Reprehenderit et in ut fugiat anim exercitation cillum incididunt aliquip ad esse minim exercitation cillum aute sint dolor occaecat sit nostrud nulla. Quis non consectetur deserunt eiusmod sit duis reprehenderit aute sint mollit irure nulla aliqua velit ea aliqua culpa incididunt veniam esse ullamco. Proident sit irure magna excepteur fugiat sunt velit, amet est elit excepteur aliqua ut occaecat.
+Data Recovery and forensics services for Barrie, Brampton, Brantford, Caledon, GTA, Georgetown, Guelph, Hamilton, Kingston, Kitchener-Cambridge-Waterloo, London, Markham, Mississauga, Orangeville, Oshawa, Ottawa, Peterborough, St. Catharines-Niagara, Vaughan, Windsor,Toronto.
+
+Trust your data recovery to the experts, we have the equipment and expertise to provide the absolute best forensic and recovery services. Forensic work requires a deposit.
+
+We are also proud to partner with various agencies and organizations worldwide.
+
+Contact us today for a free quote! [Call Us](tel:647-425-3962)
