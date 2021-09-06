@@ -8397,7 +8397,7 @@ textarea.form-control-lg {
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 2px #000000;
+  text-shadow: 2px 2px 6px #000000;
 }
 
 .box-shadow {
@@ -8408,7 +8408,9 @@ textarea.form-control-lg {
 .text-medium {
   font-size: 36px;
 }
-
+.text-large {
+  font-size: 48px;
+}
 .text-capri {
   color: #39C3F1;
 }
