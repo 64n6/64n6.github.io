@@ -8423,7 +8423,9 @@ textarea.form-control-lg {
 .text-large {
   font-size: 48px;
 }
-
+.text-navy {
+  color: #0A1931;
+}
 .text-capri {
   color: #39C3F1;
 }
@@ -8526,7 +8528,9 @@ textarea.form-control-lg {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-
+.bg-navy {
+  background-color: #0A1931;
+}
 /* ---- particles.js container ---- */
 #particles-js {
   width: auto;
