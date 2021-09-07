@@ -8397,7 +8397,7 @@ textarea.form-control-lg {
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 6px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .box-shadow {
@@ -8414,7 +8414,9 @@ textarea.form-control-lg {
 .text-capri {
   color: #39C3F1;
 }
-
+.text-blue {
+  color: #006cfc;
+}
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-rgb), var(--bs-text-opacity)) !important;
