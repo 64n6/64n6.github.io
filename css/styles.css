@@ -161,6 +161,49 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Navigation */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: #FFC947;
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #185ADB;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -362,8 +405,10 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+
 /* form */
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
 * {
   margin: 0;
   padding: 0;
@@ -376,6 +421,7 @@ button {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
 .container2 {
   max-width: 400px;
   width: 100%;
