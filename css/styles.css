@@ -351,6 +351,7 @@ label {
 button {
   border-radius: 0;
 }
+
 .email-button {
   background-color: #FFC947;
   border: none;
@@ -361,6 +362,123 @@ button {
   display: inline-block;
   font-size: 16px;
 }
+/* form */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.container2 {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact2 input[type="text"],
+#contact2 input[type="email"],
+#contact2 input[type="tel"],
+#contact2 input[type="url"],
+#contact2 textarea,
+#contact2 button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact2 {
+  background: #EFEFEF;
+  padding: 25px;
+  margin: 10px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact2 h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact2 h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact2 input[type="text"],
+#contact2 input[type="email"],
+#contact2 input[type="tel"],
+#contact2 input[type="url"],
+#contact2 textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact2 input[type="text"]:hover,
+#contact2 input[type="email"]:hover,
+#contact2 input[type="tel"]:hover,
+#contact2 input[type="url"]:hover,
+#contact2 textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact2 textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact2 button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #FFC947;
+  color: #EFEFEF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact2 button[type="submit"]:hover {
+  background: #FFC947;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact2 button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact2 input:focus,
+#contact2 textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+/* form end */
 button:focus:not(:focus-visible) {
   outline: 0;
 }
@@ -8404,9 +8522,11 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+
 .text-white2 {
   color: #EFEFEF;
 }
+
 .text-shadow {
   text-shadow: 2px 2px 4px #000000;
 }
@@ -8423,9 +8543,11 @@ textarea.form-control-lg {
 .text-large {
   font-size: 48px;
 }
+
 .text-navy {
   color: #0A1931;
 }
+
 .text-capri {
   color: #39C3F1;
 }
@@ -8487,9 +8609,11 @@ textarea.form-control-lg {
 .bg-blue {
   background-color: #185ADB;
 }
+
 .bg-yellow {
   background-color: #FFC947
 }
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -8528,9 +8652,11 @@ textarea.form-control-lg {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 .bg-navy {
   background-color: #0A1931;
 }
+
 /* ---- particles.js container ---- */
 #particles-js {
   width: auto;
