@@ -8585,16 +8585,23 @@ textarea.form-control-lg {
 }
 
 /* ---- particles.js container ---- */
-#particles-js {
-  width: auto;
-  height: 400px;
-  background-color: transparent;
+/* #particles-js { */
+  /* width: auto; */
+  /* height: 250px; */
+  /* background-color: black; */
+  /* background-image: url('/assets/hdd-denny-muller.jpg'); */
+  /* background-size: cover; */
+  /* background-position: top; */
+  /* background-repeat: no-repeat; */
+/* } */
+.particles {
+  background-color: black;
   background-image: url('/assets/hdd-denny-muller.jpg');
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
-
+.transparent {
+  background: transparent;
+}
 .bg-black {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-black-rgb), var(--bs-bg-opacity)) !important;
