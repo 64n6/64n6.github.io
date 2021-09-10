@@ -8540,7 +8540,9 @@ textarea.form-control-lg {
 .bg-yellow {
   background-color: #FFC947
 }
-
+.bg-grey {
+  background-color: #171717;
+}
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -8596,7 +8598,7 @@ textarea.form-control-lg {
 /* } */
 .particles {
   background-color: black;
-  background-image: url('/assets/hdd-denny-muller.jpg');
+  background-image: url('/assets/AdobeStock_230975841.jpeg');
   background-size: cover;
 }
 .transparent {
