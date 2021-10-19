@@ -85,11 +85,11 @@ p {
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .feature-box {
-    padding: 4.5%;
+    font-size: 1.2rem;
 }
 
 .icon {
