@@ -2,134 +2,232 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <title>Toronto Forensics & Data Recovery</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="css/styles.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <title>DFIR Toronto</title>
+
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/a47973f118.js"></script>
 </head>
 
-<body class="d-flex flex-column h-100 bg-body">
-  <main class="flex-shrink-0">
-    <!-- Navigation-->
-    <nav>
-      <div class="topnav">
-        <a href="index.html" class="active">DFIR Toronto</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-          <a href="index.html">Home</a>
-          <a href="services.html">Services</a>
-          <a href="contact.html">Contact</a>
-          <a href="about.html">About</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </nav>
-    <!-- Header-->
-    <header class="particles">
-      <h1 class="text-yellow text-shadow text-large transparent">Digital Forensics & Data Recovery</h1>
-      <p class="text-white text-shadow text-medium transparent">Call Us! (647) 425-3962</p>
-      <div id="particles-js" class="">
-      </div>
-    </header>
+<body>
 
-    <!-- Features section-->
-    <section class="py-5" id="features">
-      <div class="container px-5 my-5">
-        <div class="row gx-5">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <h2 class="fw-bolder mb-0">DFIR & Data Recovery</h2>
-          </div>
-          <div class="col-lg-8">
-            <div class="row gx-5 row-cols-1 row-cols-md-2">
-              <div class="col mb-5 h-100">
-                <div class="feature"><i class="material-icons md-48">fingerprint</i></div>
-                <h2 class="h5">Forensics Services</h2>
-                <p class="mb-0">Complete computer forensic certification. We can recover your data as well as provide computer forensics and expert witness services. We can investigate any digital device, providing full comprehensive reports that can
-                  be later used in court. We are certified in Cybersecurity & DFIR. Our expertise is second to none, and our success rate is 100%</p>
-              </div>
-              <div class="col mb-5 h-100">
-                <div class="feature"><i class="material-icons md-48">save</i></div>
-                <h2 class="h5">Data Recovery</h2>
-                <p class="mb-0">Professional data recovery services for internal & external drives, including all sizes from (3.5" & 2.5"). All manufacturers and interfaces (Flash drives, HDD, IDE, laptop drives, M.2 drives, Raids, SAS, SDCards, SSD,
-                  USB, SATA). All operating systems. Physical damage from mechanical failure & drops, bad sectors. Viruses or data corruption.</p>
-              </div>
-              <div class="col mb-5 mb-md-0 h-100">
-                <div class="feature"><i class="material-icons md-48">pest_control</i></div>
-                <h2 class="h5">Malware Analysis</h2>
-                <p class="mb-0">Understanding the behavior and purpose of suspected files. Proper analysis aids in the detection and mitigation of potential threats. Pragmatically triage incidents and uncover hidden indicators of comprimise(IOCs).
-                  Improve efficacy of IOC alerts. Enrich context when threat hunting. Providing advanced analysis (static code, YARA rules, behavioral).</p>
-              </div>
-              <div class="col h-100">
-                <div class="feature"><i class="material-icons md-48">warning</i></div>
-                <h2 class="h5">Incident Response</h2>
-                <p class="mb-0">Cyber breach investigations. Incident response, supporting your organization in it's technical, legal, social & HR response. We work with you to identify, contain, remove and recover during a security incident. We have
-                  experience in cyber breach incidents. Pragmatic investigation following a prioritized plan and explorative action. Comprehensive threat intelligence through forensic and offensive security experience.</p>
-              </div>
+<section class="colored-section" id="title">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">64N6</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#features">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonial section-->
-    <div class="py-5 bg-body">
-      <div class="container px-5 my-5">
-        <div class="row gx-5 justify-content-center">
-          <div class="col-lg-10 col-xl-7">
-            <div class="text-center text-navy">
-              <h1>Data Recovery</h1>
-              <div class="fs-4 mb-4 fst-italic text-navy">"Lost old photos or videos? Important files or hard drive failure? Unrecognizable drive? We can recover important files from any type of drive or computer, SDCards and flash drives!"</div>
-              <div class="d-flex align-items-center justify-content-center">
-                <img class="img-dynamic rounded" src="/assets/AdobeStock_267178536.jpeg" alt="" />
-              </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1 class="big-heading">Digital Forensics & Data Recovery</h1>
+                <a href="tel:647-425-3962"><i class="fas fa-headset fa-3x" style="color: #00b9e2;"></i></a>
+                <p class="lead">Call Us!</p>
             </div>
-          </div>
+            <div class="col-lg-6">
+                <img class="title-image" src="images/AdobeStock_230975841.jpeg" alt="">
+            </div>
         </div>
-      </div>
     </div>
-    <!-- Call to action-->
-    <aside class="bg-grey p-0 p-sm-5 mt-5">
-      <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-        <div class=" mb-xl-0">
-          <div class="fs-3 fw-bold text-white"><a href="mailto:64n6@protonmail.com">Contact</a> us today for a free consultation!</div>
-          <div class="text-white-50">*Deposit required on all services</div>
+</section>
+
+<!-- Features -->
+<section class="white-section" id="features">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-fingerprint fa-4x"></i>
+                <h3 class="feature-title">Forensics Services</h3>
+                <p>Complete computer forensic certification. We can recover your data as well as provide computer
+                    forensics and
+                    expert witness services. We can investigate any digital device, providing full comprehensive reports
+                    that can
+                    be later used in court. We are certified in Cybersecurity & DFIR. Our expertise is second to none,
+                    and our
+                    success rate is 100%</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-database fa-4x"></i>
+                <h3 class="feature-title">Data Recovery</h3>
+                <p>Professional data recovery services for internal & external drives, including all sizes from (3.5" &
+                    2.5").
+                    All manufacturers and interfaces (Flash drives, HDD, IDE, laptop drives, M.2 drives, Raids, SAS,
+                    SDCards, SSD,
+                    USB, SATA). All operating systems. Physical damage from mechanical failure & drops, bad sectors.
+                    Viruses or
+                    data corruption.</p>
+            </div>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-virus fa-4x"></i>
+                <h3 class="feature-title">Malware Analysis</h3>
+                <p>Understanding the behavior and purpose of suspected files. Proper analysis aids in the detection and
+                    mitigation of potential threats. Pragmatically triage incidents and uncover hidden indicators of
+                    comprimise(IOCs).
+                    Improve efficacy of IOC alerts. Enrich context when threat hunting. Providing advanced analysis
+                    (static code,
+                    YARA rules, behavioral).</p>
+            </div>
         </div>
-      </div>
-    </aside>
     </div>
-    </section>
-  </main>
-  <!-- Footer-->
-  <footer class="bg-black py-4 mt-auto">
-    <div class="container">
-      <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-        <div class="col-auto text-muted">Copyright &copy; 64n6.com 2021 | We care about privacy, and will never share your data.
+</section>
+
+<!-- Testimonials -->
+<section class="colored-section" id="testimonials">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
         </div>
-        <div class="col-auto">
-          <a class="link-light small" href="/index.html">Home</a>
-          <span class="text-white2 mx-1">&middot;</span>
-          <a class="link-light small" href="/services.html">Services</a>
-          <span class="text-white2 mx-1">&middot;</span>
-          <a class="link-light small" href="/contact.html">Contact</a>
-          <span class="text-white2 mx-1">&middot;</span>
-          <a class="link-light small" href="/about.html">About</a>
-          <span class="text-white2 mx-1">&middot;</span>
-          <a class="link-light small" href="/privacy-policy.html">Privacy</a>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/AdobeStock_290601485.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Data Recovery</h5>
+                    <p>Professional Data Recovery &amp; Complete Forensics Services</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/AdobeStock_394674637.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Cyber Security</h5>
+                    <p>Professional Penetration Testing Services</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/AdobeStock_186885581.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Malware Analysis</h5>
+                    <p>Pragmatically Triage Incidents And Uncover Hidden Indicators Of Comprimise(IOCs).</p>
+                </div>
+            </div>
         </div>
-      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <script src="js/particles.js"></script>
-  <script src="js/app.js"></script>
+</section>
+
+<!-- Press -->
+<section class="colored-section" id="press">
+    <img class="press-logo" src="images/GCFE.png" alt="">
+    <img class="press-logo" src="images/Magnet.png" alt="">
+    <img class="press-logo" src="images/Cellebrite-UFED-Logo.png" alt="">
+    <img class="press-logo" src="images/hunchly.png" alt="">
+</section>
+
+<!-- Pricing -->
+<section class="white-section" id="pricing">
+    <h2 class="section-heading">Complete Forensics Services</h2>
+    <p>100% Free Quotes!</p>
+    <div class="row">
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Forensics</h3>
+                </div>
+                <div class="card-body">
+                    <p>Computer Forensics</p>
+                    <p>Forensic Drive Imaging</p>
+                    <p>Smart Phone Forensics</p>
+                    <p>Secure Erasing</p>
+                    <p>Drive Cloning</p>
+                    <p>Network Forensics</p>
+                    <p>Malware Analysis</p>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-column col-lg-4 col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Data Recovery</h3>
+                </div>
+                <div class="card-body">
+                    <p>Hard Drives</p>
+                    <p>Solid State Drives(SSD)</p>
+                    <p>Flash Data Recovery</p>
+                    <p>iPhone Data Recovery</p>
+                    <p>Android Data Recovery</p>
+                    <p>BlackBerry Data Recovery</p>
+                    <p>External Drive Data Recovery</p>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-column col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Pen-Testing</h3>
+                </div>
+                <div class="card-body">
+                    <p>External Penetration Testing</p>
+                    <p>Internal Penetration Testing</p>
+                    <p>Web Application Testing</p>
+                    <p>Vulnerability Scanning</p>
+                    <p>Wireless Penetration Testing</p>
+                    <p>Social Engineering</p>
+                    <p>Physical Penetration Testing</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+        <h2 class="display-4 fw-bolder mb-4">Let's get started</h2>
+        <a class="btn btn-lg btn-dark" href="mailto:64n6@protonmail.com">Contact Us!</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="white-section" id="footer">
+    <div class="container-fluid">
+        <!-- <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i> -->
+        <p>© Copyright 64N6 2021 &#9733; We Care About Privacy, And Will Never Share Your Data | *Deposit required on
+            all services</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
