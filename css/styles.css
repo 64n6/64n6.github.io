@@ -3,26 +3,18 @@ body {
     text-align: center;
 }
 
-/* Headings */
-
-/* Containers */
-
 .container-fluid {
     padding: 7% 15%;
 }
 
-/* Sections */
-
 .colored-section {
-    background-color: #ffa332;
+    background-color: #ffb123;
     color: #fff;
 }
 
 .white-section {
     background-color: #fff;
 }
-
-/* Navigation Bar */
 
 .navbar {
     padding: 0 0 4.5rem;
@@ -44,16 +36,8 @@ body {
     font-size: 1.2rem;
 }
 
-/* Buttons */
-
-.download-button {
-    margin: 5% 3% 5% 0;
-}
-
-/* Title Section */
-
 #title {
-    background-color: #000031;
+    background-color: #001f52;
     color: #fff;
     text-align: left;
 }
@@ -62,16 +46,12 @@ body {
     padding: 3% 15% 7%;
 }
 
-/* Title Image */
-
 .title-image {
     width: 45%;
     transform: rotate(12deg);
     position: absolute;
     right: 5%;
 }
-
-/* Features Section */
 
 #features {
     position: relative;
@@ -82,29 +62,31 @@ body {
 }
 
 .icon {
-    color: #ffa332;
+    color: #ffb123;
     margin-bottom: 1rem;
 }
 
 .text-o {
-    color: #ffa332;
+    color: #ffb123;
 }
 
 .text-b {
-    color: #00b9e2;
+    color: #006fbb;
 }
 
 .text-w {
     color: white;
 }
 .icon:hover {
-    color: #00b9e2;
+    color: #006fbb;
 }
 
-/* Testimonial Section */
+.text-r {
+    color: #cf0038;
+}
 
 #testimonials {
-    background-color: #00b9e2;
+    background-color: #006fbb;
 }
 
 .testimonial-text {
@@ -120,7 +102,7 @@ body {
 }
 
 #press {
-    background-color: #00b9e2;
+    background-color: #006fbb;
     padding-bottom: 3%;
 }
 
@@ -128,8 +110,6 @@ body {
     width: 15%;
     margin: 20px 20px 50px;
 }
-
-/* Pricing Section */
 
 .pricing-column {
     padding: 2% 2%;
