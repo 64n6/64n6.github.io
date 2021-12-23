@@ -16,10 +16,6 @@ body {
     background-color: transparent;
 }
 
-/*.navbar-brand {*/
-/*    font-size: 2.5rem;*/
-/*}*/
-
 .nav-item {
     padding: 0 18px;
 }
@@ -42,12 +38,12 @@ body {
     padding: 3% 15% 7%;
 }
 
-.title-image {
-    width: 45%;
-    transform: rotate(12deg);
-    position: absolute;
-    right: 5%;
-}
+/*.title-image {*/
+/*    width: 45%;*/
+/*    transform: rotate(12deg);*/
+/*    position: absolute;*/
+/*    right: 5%;*/
+/*}*/
 
 #features {
     position: relative;
@@ -61,7 +57,10 @@ body {
     color: #ffb123;
     margin-bottom: 1rem;
 }
-
+.icon-p {
+    color: #8a90c7;
+    margin-bottom: 1rem;
+}
 .text-o {
     color: #ffb123;
 }
@@ -81,6 +80,9 @@ body {
     color: #cf0038;
 }
 
+.text-p {
+    color: #8a90c7;
+}
 #testimonials {
     background-color: #006fbb;
 }
@@ -117,18 +119,6 @@ body {
 .social-icon {
     margin: 20px 10px;
 }
-
-/*@media (max-width: 1028px) {*/
-
-/*    #title {*/
-/*        text-align: center;*/
-/*    }*/
-
-/*    .title-image {*/
-/*        position: static;*/
-/*        transform: rotate(0);*/
-/*    }*/
-/*}*/
 
 .carousel .item {
     height: 300px;
