@@ -81,6 +81,9 @@ body {
     color: #8a90c7;
 }
 
+.text-shadow {
+    text-shadow: 2px 2px 4px #3f3f4d;
+}
 #testimonials {
     background-color: #006fbb;
 }
